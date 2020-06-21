@@ -1,0 +1,118 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{
+	background-color: #ffff;
+	padding:10px 0;
+}
+.wrapper {
+	overflow: hidden;
+	margin:0 5%;
+	width:80%;
+
+	/*border:1px solid red;*/
+}
+
+.logo {
+	/*border:1px solid red;*/
+	width:20%;
+	float: left;
+}
+.logo img{
+	width:100%;
+	padding: 10;
+}
+
+.menu {
+	/*border:1px solid red;*/
+	width:80%;
+	float: right ;
+	margin-top: 0; 
+}
+.menu ul {
+	float:right;
+
+}
+.menu ul li{
+	list-style: none;
+	float:left;
+
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-weight:400;
+	font-size: 16px;
+	color:#55677C;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0 25px;
+	display: inline-block;
+	
+
+}
+.menu ul li:last-child a{
+		padding-right: 0;
+} 
+
+/*header ebd*/
+/*banner start*/
+.banner{
+	background-image: url(../images/home.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.b_content{
+	width: 45%;
+	/*border: 2px solid red;*/
+	background-color: rgba(54,46,44,0.5);
+	margin: 75px 0 200px;
+	padding-bottom: 50px;
+	padding-right: 	20px;
+	padding-top: 30px;
+
+}
+.b_content h1{
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 35px;
+	color: white;
+	text-transform: uppercase;
+	margin: 50px 50px 0 50px;
+	line-height: 50px;
+	opacity: 0.6;
+}
+.b_content p{
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size:18px;
+	color: white;
+	margin: 0 40px 0 50px;
+	letter-spacing: 3px;
+	opacity: 0.6;
+}
+.b_content button{
+	margin: 30px 0 0 50px;
+	width: 200px;
+	height: 40px;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: white;
+	background-color:rgba(54,46,44);
+	opacity: .6;
+	border:0;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: .3s;
+}
+.b_content button:hover{
+	color: #31A9EA;
+}
+.b_content button:focus{
+	outline: 0;
+}
+
+
+/*banner end*/
